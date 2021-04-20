@@ -22,7 +22,7 @@ describe('2 - Adicione uma barra superior com um título', () => {
     shouldExist('#cabecalho');
   });
 
-  it('A barra superior deve ser fixa no topo da página, com a propriedade top tendo `0px`', () => {
+  it('A barra superior deve ser fixa no topo da página, com a propriedade top tendo o valor `0`', () => {
     cy.get('#cabecalho')
       .should('have.css', 'position', 'fixed')
       .should('have.css', 'top', '0px');
