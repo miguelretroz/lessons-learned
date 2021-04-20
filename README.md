@@ -310,7 +310,7 @@ Para tornar o seu site mais acessível e melhorar seu ranqueamento em mecanismos
 - Validar se a página possui um elemento "aside"
 - Validar se a página possui um elemento "footer"
 
-### 11. Teste a semântica da sua página está aprovada pelo site achecker
+### 11. Teste se a semântica da sua página está aprovada pelo site achecker
 
 Teste a semântica da sua página está aprovada pelo site achecker
 
