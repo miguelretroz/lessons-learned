@@ -134,8 +134,8 @@ Através desta aplicação, será possível realizar a construção de código H
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-12-project-lessons-learned/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+  * Adicione o nome do _Pull Request_ no formato: [Nome-Sobrenome][Project-Lessons-Learned], depois clique no botão verde _"Create pull request"_
   * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-12-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
 
