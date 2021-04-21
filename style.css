@@ -3,9 +3,37 @@ body {
     margin: 0;
 }
 
+a {
+    display: block;
+    clear: both;
+}
+
 #cabecalho {
     background-color: orangered;
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+#licoes_aprendidas, #licoes_a_aprender{
+    float: left;
+}
+
+.lado-esquerdo {
+    border: black dotted 1px;
+    width: 48%;
+    float:left;
+    margin: 1px;
+}
+
+.lado-direito {
+    border: black dotted 1px;
+    float: right;
+    width: 48%;
+    margin: 1px;
+}
+
+#rodape {
+    clear:both;
+    padding: 10px;
 }
