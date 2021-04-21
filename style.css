@@ -1,22 +1,39 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
+    font-family: Verdana,Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 a {
-    display: block;
     clear: both;
+    position: relative;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8%;
+    top: 15px;
+    font-weight: 600;
 }
-
+a img {
+    position: relative;
+    top: 5px;
+    margin: 0;
+}
 #cabecalho {
-    background-color: orangered;
+    background-color: #2fc18c;
+    color: white;    
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
 #licoes_aprendidas, #licoes_a_aprender{
     float: left;
+}
+
+#rodape {
+    clear:both;
+    padding: 10px;
 }
 
 .lado-esquerdo {
@@ -33,7 +50,7 @@ a {
     margin: 1px;
 }
 
-#rodape {
-    clear:both;
-    padding: 10px;
+.header-title {
+    float: right;
+    margin-right: 50px;
 }
