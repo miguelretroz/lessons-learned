@@ -27,7 +27,7 @@ header a img {
 }
 
 main {
-    margin-top: 70px;
+    margin-top: 75px;
 }
 
 .clear {
@@ -55,6 +55,12 @@ main {
     border-radius: 50%
 }
 
+#minha_foto:hover {
+    transition: 1000ms;
+    border-radius: 20%;
+    transition-property: all;
+}
+
 #licoes_aprendidas, #licoes_a_aprender{
     float: left;
     line-height: 15px;
@@ -72,7 +78,7 @@ main {
     margin-right: 50px;
 }
 
-.img_container {
+.info_pessoais{
     width: 100%;
 }
 
