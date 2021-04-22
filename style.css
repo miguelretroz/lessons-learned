@@ -52,13 +52,20 @@ main {
     float: left;
     margin-left: 30px;
     margin-right: 30px;
+    border:rgb(175, 175, 175) solid 2px;
     border-radius: 50%
 }
 
 #minha_foto:hover {
     transition: 1000ms;
     border-radius: 20%;
-    transition-property: all;
+    border: #2fc18c solid 5px;
+
+}
+
+#descricao {
+    text-align: center;
+    padding: 90px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender{
