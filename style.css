@@ -79,27 +79,34 @@ main {
     padding: 90px;
 }
 
-.quem_sou_eu #paragrafo p{
-    font-size: 0px;
+.quem_sou_eu #paragrafo{
+    font-size: 20px;
     color: black;
+    position: absolute;
+    left: 2000px;
+    z-index: -2;
+    width: 600px;
 }
 
 .quem_sou_eu h1 {
     color:rgb(83, 83, 83);
     margin-top: 80px;
+    position:absolute;
+    left: 720px;
+    z-index: -2;
 }
 
 .quem_sou_eu:hover h1 {
     transition: 2000ms;
     color: #2fc18c;
-    margin-top: 20px;
+    margin-top: -20px;
 }
 
-.quem_sou_eu:hover #paragrafo p{
+.quem_sou_eu:hover #paragrafo {
     transition: 2000ms;
-    font-size: 20px;
     font-weight: 600;
     color: #2fc18c;
+    left: 500px;
 }
 
 .quem_sou_eu:hover {
