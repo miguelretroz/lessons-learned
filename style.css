@@ -27,7 +27,7 @@ header a img {
 }
 
 main {
-    margin-top: 75px;
+    margin-top: 70px;
 }
 
 .clear {
@@ -50,22 +50,61 @@ main {
 
 #minha_foto {
     float: left;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 5px 30px;
     border:rgb(175, 175, 175) solid 2px;
     border-radius: 50%
 }
 
-#minha_foto:hover {
+.quem_sou_eu:hover #minha_foto {
     transition: 1000ms;
     border-radius: 20%;
-    border: #2fc18c solid 5px;
+    border: #2fc18c solid 3px;
 
 }
 
+#img_container {
+    width:300px;
+    margin-left: 200px;
+}
+
+.quem_sou_eu:hover #img_container{
+    transition: 2000ms;
+    margin-left: 50px;
+    margin-left: 30px;
+}
+
 #descricao {
+    /* display:none; */
     text-align: center;
     padding: 90px;
+}
+
+.quem_sou_eu #paragrafo p{
+    font-size: 0px;
+    color: black;
+}
+
+.quem_sou_eu h1 {
+    color:rgb(83, 83, 83);
+    margin-top: 80px;
+}
+
+.quem_sou_eu:hover h1 {
+    transition: 2000ms;
+    color: #2fc18c;
+    margin-top: 20px;
+}
+
+.quem_sou_eu:hover #paragrafo p{
+    transition: 2000ms;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2fc18c;
+}
+
+.quem_sou_eu:hover {
+    transition: 3000ms;
+    background-color: rgba(175, 175, 175, 0.329);
 }
 
 #licoes_aprendidas, #licoes_a_aprender{
@@ -85,7 +124,7 @@ main {
     margin-right: 50px;
 }
 
-.info_pessoais{
+.quem_sou_eu{
     width: 100%;
 }
 
