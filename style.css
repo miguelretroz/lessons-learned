@@ -83,7 +83,7 @@ main {
     font-size: 20px;
     color: black;
     position: absolute;
-    left: 2000px;
+    left: 4000px;
     z-index: -2;
     width: 600px;
 }
