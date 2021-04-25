@@ -59,6 +59,18 @@ h1 {
     margin: 0;
 }
 
+nav ul {
+    margin-top: 25px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li:hover a {
+    color: rgb(209, 209, 209);
+}
+
 .clear {
     clear:both;
 }
