@@ -82,6 +82,7 @@ nav li:hover a {
     position: fixed;
     top: 0;
     height: 70px;
+    z-index: 5;
 }
 
 #titulo {
@@ -155,9 +156,45 @@ nav li:hover a {
     background-color: rgba(175, 175, 175, 0.329);
 }
 
+#listas_licoes {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#listas_licoes div {
+    width: 710px;
+    margin: 10px auto;
+}
+
 #licoes_aprendidas, #licoes_a_aprender{
     float: left;
-    line-height: 15px;
+    line-height: 25px;
+    border: solid #2fc18c 1px;
+    font-size: 20px;
+    width: 282px;
+    margin: 15px;
+    background-color: rgba(121, 121, 121, 0.329); 
+}
+
+#listas_licoes h2:nth-of-type(1) {
+    display: inline-block;
+    position: relative;
+    left: -14px;
+    top: 25px;
+    z-index: -0;
+    padding: 20px 96px;
+    margin: 0;
+    background-color: #2fc18c;
+}
+
+#listas_licoes h2:nth-of-type(2) {
+    display: inline-block;
+    position: relative;
+    left: 12px;
+    top: 25px;
+    padding: 20px 99px;
+    margin: 0;
+    background-color: #2fc18c;
 }
 
 #rodape {
