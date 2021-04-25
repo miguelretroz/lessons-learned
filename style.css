@@ -2,6 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     margin: 0;
     font-family: Verdana,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: rgb(70, 70, 70);
 }
 
 a {
@@ -28,6 +29,34 @@ header a img {
 
 main {
     margin-top: 70px;
+}
+
+table {
+    margin: 25px auto;
+    display:inline-block;
+    border-collapse: collapse;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(121, 121, 121, 0.329);
+}
+
+th {
+    background-color: #2fc18c;
+}
+
+th, td {
+    margin: 0;
+    padding: 10px;
+    border: none;
+    border: #2fc18c solid 1px;
+}
+
+tr:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+h1 {
+    margin: 0;
 }
 
 .clear {
@@ -149,7 +178,11 @@ main {
     margin: 1px;
 }
 
-.clear {
-    clear: both;
+.container_tabela {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
 }
-
+section:nth-child(2n) {
+    background-color: rgba(175, 175, 175, 0.329);
+}
