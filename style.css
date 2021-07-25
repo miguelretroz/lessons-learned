@@ -1,255 +1,250 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    font-family: Verdana,Arial,"Helvetica Neue",Helvetica,sans-serif;
-    color: rgb(70, 70, 70);
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica Neue, Helvetica, sans-serif;
+  color: rgb(70, 70, 70);
 }
 
 a {
-    clear: both;
-    position: relative;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    border-radius: 8%;
-    font-weight: 600;
-}
-
-header h1 {
-    float: right;
-}
-
-header a img {
-    position: relative;
-    top: 10px;
-    right: 6px;
-    margin: 0;
-    z-index: -1;
-}
-
-main {
-    margin-top: 70px;
-}
-
-table {
-    margin: 25px auto;
-    display:inline-block;
-    border-collapse: collapse;
-    font-size: 20px;
-    border: none;
-    background-color: rgba(121, 121, 121, 0.329);
-}
-
-th {
-    background-color: #2fc18c;
-}
-
-th, td {
-    margin: 0;
-    padding: 10px;
-    border: none;
-    border: #2fc18c solid 1px;
-}
-
-tr:hover {
-    background-color: rgb(165, 165, 165);
+  clear: both;
+  position: relative;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8%;
+  font-weight: 600;
 }
 
 h1 {
-    margin: 0;
+  margin: 0;
+}
+
+header h1 {
+  float: right;
+}
+
+header a img {
+  position: relative;
+  top: 10px;
+  right: 6px;
+  margin: 0;
+  z-index: -1;
+}
+
+main {
+  margin-top: 70px;
+}
+
+table {
+  margin: 25px auto;
+  display: inline-block;
+  border-collapse: collapse;
+  font-size: 20px;
+  border: none;
+  background-color: rgba(121, 121, 121, 0.329);
+}
+
+th {
+  background-color: rgb(47, 193, 140);
+}
+
+th , td {
+  margin: 0;
+  padding: 10px;
+  border: rgb(47, 193, 140) solid 1px;
+}
+
+tr:hover {
+  background-color: rgb(165, 165, 165);
 }
 
 nav ul {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav li:hover a {
-    color: rgb(209, 209, 209);
+  color: rgb(209, 209, 209);
 }
 
 .clear {
-    clear:both;
+  clear: both;
 }
 
 #cabecalho {
-    background-color: #2fc18c;
-    color: white;    
-    width: 100%;
-    position: fixed;
-    top: 0;
-    height: 70px;
-    z-index: 5;
+  background-color: rgb(47, 193, 140);
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 5;
 }
 
 #titulo {
-    font-size: 30px;
-    margin: 0;
+  font-size: 30px;
+  margin: 0;
 }
 
 #minha_foto {
-    float: left;
-    margin: 5px 30px;
-    border:rgb(175, 175, 175) solid 2px;
-    border-radius: 50%
+  float: left;
+  margin: 5px 30px;
+  border: rgb(175, 175, 175) solid 2px;
+  border-radius: 50%;
 }
 
 .quem_sou_eu:hover #minha_foto {
-    transition: 1000ms;
-    border-radius: 20%;
-    border: #2fc18c solid 3px;
-
+  transition: 1000ms;
+  border-radius: 20%;
+  border: rgb(47, 193, 140) solid 3px;
 }
 
 #img_container {
-    width:300px;
-    margin-left: 200px;
+  width: 300px;
+  margin-left: 200px;
 }
 
-.quem_sou_eu:hover #img_container{
-    transition: 2000ms;
-    margin-left: 50px;
-    margin-left: 30px;
+.quem_sou_eu {
+  width: 100%;
+}
+
+.quem_sou_eu:hover #img_container {
+  transition: 2000ms;
+  margin-left: 30px;
 }
 
 #descricao {
-    /* display:none; */
-    text-align: center;
-    padding: 90px;
+  text-align: center;
+  padding: 90px;
 }
 
-.quem_sou_eu #paragrafo{
-    font-size: 20px;
-    color: rgb(253, 251, 251);
-    position: absolute;
-    /* left: 4000px; */
-    z-index: -2;
-    width: 600px;
-    font-weight: bold;
-    z-index: -2;
+.quem_sou_eu #paragrafo {
+  font-size: 20px;
+  color: rgb(253, 251, 251);
+  position: absolute;
+  z-index: -2;
+  width: 600px;
+  font-weight: 600;
 }
 
 .quem_sou_eu h1 {
-    color:rgb(83, 83, 83);
-    margin-top: 80px;
-    position:absolute;
-    left: 720px;
-    z-index: -1;
+  color: rgb(83, 83, 83);
+  margin-top: 80px;
+  position: absolute;
+  left: 720px;
+  z-index: -1;
 }
 
 .quem_sou_eu:hover h1 {
-    transition: 2000ms;
-    color: #2fc18c;
-    margin-top: -20px;
+  transition: 2000ms;
+  color: rgb(47, 193, 140);
+  margin-top: -20px;
 }
 
 .quem_sou_eu:hover #paragrafo {
-    transition: 5000ms;
-    color: #2fc18c;
-    left: 500px;
-    display: block;
+  transition: 5000ms;
+  color: rgb(47, 193, 140);
+  left: 500px;
+  display: block;
 }
 
 .quem_sou_eu:hover {
-    transition: 3000ms;
-    background-color: rgba(218, 218, 218, 0.329);
+  transition: 3000ms;
+  background-color: rgba(218, 218, 218, 0.329);
 }
 
 #listas_licoes {
-    text-align: center;
-    padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #listas_licoes div {
-    width: 710px;
-    margin: 10px auto;
+  width: 710px;
+  margin: 10px auto;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
-    float: left;
-    line-height: 25px;
-    border: solid #2fc18c 1px;
-    font-size: 20px;
-    width: 282px;
-    margin: 15px;
-    background-color: rgba(121, 121, 121, 0.329); 
+#licoes_aprendidas , #licoes_a_aprender {
+  float: left;
+  line-height: 25px;
+  border: solid rgb(47, 193, 140) 1px;
+  font-size: 20px;
+  width: 282px;
+  margin: 15px;
+  background-color: rgba(121, 121, 121, 0.329);
 }
 
-#listas_licoes h2:nth-of-type(1) {
-    display: inline-block;
-    position: relative;
-    left: -13.5px;
-    top: 25px;
-    z-index: -0;
-    padding: 20px 96px;
-    margin: 0;
-    background-color: #2fc18c;
+#listas_licoes h2:nth-of-type( 1 ) {
+  display: inline-block;
+  position: relative;
+  left: -13.5px;
+  top: 25px;
+  z-index: -0;
+  padding: 20px 96px;
+  margin: 0;
+  background-color: rgb(47, 193, 140);
 }
 
-#listas_licoes h2:nth-of-type(2) {
-    display: inline-block;
-    position: relative;
-    left: 12px;
-    top: 25px;
-    padding: 20px 99px;
-    margin: 0;
-    background-color: #2fc18c;
+#listas_licoes h2:nth-of-type( 2 ) {
+  display: inline-block;
+  position: relative;
+  left: 12px;
+  top: 25px;
+  padding: 20px 99px;
+  margin: 0;
+  background-color: rgb(47, 193, 140);
 }
 
-#licoes_aprendidas:hover, #licoes_a_aprender:hover {
-    background-color:rgb(165, 165, 165);
+#licoes_aprendidas:hover , #licoes_a_aprender:hover {
+  background-color: rgb(165, 165, 165);
 }
 
 #aprendizado {
-    padding: 40px;
-    text-align: center;
+  padding: 40px;
+  text-align: center;
 }
 
 #aprendizado h1 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #rodape {
-    clear:both;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 7px;
+  clear: both;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 7px;
 }
 
 .header-title {
-    float: right;
-    margin-right: 50px;
-}
-
-.quem_sou_eu{
-    width: 100%;
+  float: right;
+  margin-right: 50px;
 }
 
 .lado-esquerdo {
-    width: 60%;
-    float:left;
-    margin: 1px;
-    font-size: 18px;
+  width: 60%;
+  float: left;
+  margin: 1px;
+  font-size: 18px;
 }
 
 .lado-direito {
-    background-color: #2fc18c;
-    float: right;
-    width: 30%;
-    margin: 1px;
-    font-size: 16px;
-    padding: 10px;
-    border: #2fc18c solid 1px;
+  background-color: rgb(47, 193, 140);
+  float: right;
+  width: 30%;
+  margin: 1px;
+  font-size: 16px;
+  padding: 10px;
+  border: rgb(47, 193, 140) solid 1px;
 }
 
 .container_tabela {
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
 }
-section:nth-child(2n) {
-    background-color: rgba(218, 218, 218, 0.329);
+
+section:nth-child( 2n ) {
+  background-color: rgba(218, 218, 218, 0.329);
 }
