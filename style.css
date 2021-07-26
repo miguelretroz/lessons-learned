@@ -94,10 +94,12 @@ nav li:hover a {
   margin: 5px 30px;
   border: rgb(175, 175, 175) solid 2px;
   border-radius: 50%;
+  transition: 1000ms;
 }
 
 .quem_sou_eu:hover #minha_foto {
-  transition: 1000ms;
+
+  /* transition: 1000ms; */
   border-radius: 20%;
   border: rgb(47, 193, 140) solid 3px;
 }
@@ -105,14 +107,17 @@ nav li:hover a {
 #img_container {
   width: 300px;
   margin-left: 200px;
+  transition: 2000ms;
 }
 
 .quem_sou_eu {
   width: 100%;
+  transition: 3000ms;
 }
 
 .quem_sou_eu:hover #img_container {
-  transition: 2000ms;
+
+  /* transition: 2000ms; */
   margin-left: 30px;
 }
 
@@ -128,6 +133,8 @@ nav li:hover a {
   z-index: -2;
   width: 600px;
   font-weight: 600;
+  left: 500px;
+  transition: 3000ms;
 }
 
 .quem_sou_eu h1 {
@@ -136,23 +143,27 @@ nav li:hover a {
   position: absolute;
   left: 720px;
   z-index: -1;
+  transition: 2000ms;
 }
 
 .quem_sou_eu:hover h1 {
-  transition: 2000ms;
+
+  /* transition: 2000ms; */
   color: rgb(47, 193, 140);
   margin-top: -20px;
 }
 
 .quem_sou_eu:hover #paragrafo {
-  transition: 5000ms;
+
+  /* transition: 5000ms; */
   color: rgb(47, 193, 140);
   left: 500px;
   display: block;
 }
 
 .quem_sou_eu:hover {
-  transition: 3000ms;
+
+  /* transition: 3000ms; */
   background-color: rgba(218, 218, 218, 0.329);
 }
 
