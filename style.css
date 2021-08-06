@@ -54,6 +54,11 @@ th , td {
   border: rgb(47, 193, 140) solid 1px;
 }
 
+tr , nav li a {
+  transition: 500ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
 tr:hover {
   background-color: rgb(165, 165, 165);
 }
@@ -64,6 +69,7 @@ nav ul {
 
 nav li {
   display: inline-block;
+  transition: 500ms;
 }
 
 nav li:hover a {
@@ -186,6 +192,8 @@ nav li:hover a {
   width: 282px;
   margin: 15px;
   background-color: rgba(121, 121, 121, 0.329);
+  transition: 500ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 #listas_licoes h2:nth-of-type( 1 ) {
