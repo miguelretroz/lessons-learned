@@ -20,19 +20,11 @@
 ## 💻 Demo
 <img  src="./img/Project-Lessons-Learned-(1366-768).gif" >
 
+> A aplicação pode ser acessada através do deploy realizado na plataforma gratuita do <a href="https://vercel.com/" >Vercel</a>:
 
-<div align="center">
-  É possivel testar a aplicação funcionando no link abaixo
-
-  ⬇️
-
-  <a  href="https://project-lessons-learned-lilac.vercel.app/" target="_blank"><img 
-  align="center" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /> -> Deploy da aplicação</a>
-</div>
-
-###
-
-> Deploy realizado na plataforma gratuita do <a href="https://vercel.com/" >Vercel</a>
+🔹<a href="https://miguel-retroz-lessons-learned.vercel.app/" target="_blank"><img 
+  align="center" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /> - Deploy da aplicação
+</a>
 
 ## 👤Contatos
 🔹<a href = "mailto:contato.miguelretroz@gmail.com" target="_blank">
