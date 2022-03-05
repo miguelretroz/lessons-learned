@@ -5,7 +5,7 @@
 
   O projeto foi todo desenvolvido com os conhecimentos adquiridos em 15 dias de curso na Trybe, utilizando apenas <b>HTML</b>  E <b>CSS</b> puros.
 
-## 🛠️ Contruído com
+## 🛠️ Construído com
 
 🔹<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
     <img align="center" src="./img/html5-logo.svg" height="20">
